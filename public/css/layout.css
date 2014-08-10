@@ -1,0 +1,11 @@
+body {
+	font-family: sans-serif;
+	overflow: hidden;
+	background: #ddd;
+	display: block;
+}
+
+.btn {
+	border-radius: 10px;
+	width: 110%;
+}

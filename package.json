@@ -1,0 +1,8 @@
+{
+  "name": "game-of-things",
+  "dependencies": {
+    "express": "^4.8.2",
+    "express3-handlebars": "^0.5.2",
+    "socket.io": "^1.0.6"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Game_of_Things",
+  "version": "0.0.0",
+  "authors": [
+    "anthonynatoli <anatoli@purdue.edu>"
+  ],
+  "description": "A game of things",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "underscore": "~1.6.0",
+    "requirejs": "~2.1.14",
+    "handlebars": "~1.3.0",
+    "backbone": "~1.1.2",
+    "marionette": "~2.1.0"
+  }
+}
