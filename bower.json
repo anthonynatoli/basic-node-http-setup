@@ -1,10 +1,10 @@
 {
-  "name": "Game_of_Things",
+  "name": "Node-Http-Server",
   "version": "0.0.0",
   "authors": [
     "anthonynatoli <anatoli@purdue.edu>"
   ],
-  "description": "A game of things",
+  "description": "A basic http node server",
   "moduleType": [
     "amd"
   ],

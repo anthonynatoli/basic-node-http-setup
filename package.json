@@ -1,5 +1,5 @@
 {
-  "name": "game-of-things",
+  "name": "Server",
   "dependencies": {
     "express": "^4.8.2",
     "express3-handlebars": "^0.5.2",
