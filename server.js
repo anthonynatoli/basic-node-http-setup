@@ -2,6 +2,8 @@ var express = require('express');
 var http = require('http');
 var exhbs = require( 'express3-handlebars' );
 
+var = require('./routes/router');
+
 var app = express();
 
 var server = http.createServer(app);
@@ -13,6 +15,10 @@ app.use( express.static( __dirname ) );
 
 app.get('/', function(req, res){
   res.render( 'home' );
+});
+
+app.get('/sample_route', function(req, res){
+	res.render( 'route' );
 });
 
 server.listen(3000, function(){
