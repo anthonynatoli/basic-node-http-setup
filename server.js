@@ -7,6 +7,7 @@ var router = require('./routes/router');
 var app = express();
 
 var server = http.createServer(app);
+var port = 3000;
 
 app.engine( 'handlebars', exhbs( { defaultLayout: 'master' } ) );
 app.set( 'view engine', 'handlebars' );
@@ -23,7 +24,8 @@ app.get('/sample_route', function(req, res){
 	res.render( 'route' );
 });
 
-server.listen(3000, function(){
+
+server.listen(process.env.PORT || port, function(){
   console.log('listening on *:3000');
   console.log( __dirname );
 });
