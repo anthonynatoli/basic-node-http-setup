@@ -3,8 +3,7 @@
   "dependencies": {
   	"bower": "*",
     "express": "^4.8.2",
-    "express3-handlebars": "^0.5.2",
-    "socket.io": "^1.0.6"
+    "express3-handlebars": "^0.5.2"
   },
   "scripts": {
   	"start": "node server.js",
