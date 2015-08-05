@@ -6,6 +6,7 @@
     "socket.io": "^1.0.6"
   },
   "scripts": {
-  	"start": "node server.js"
+  	"start": "node server.js",
+  	"postinstall": "./node_modules/bower/bin/bower install"
   }
 }

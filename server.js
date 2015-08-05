@@ -7,7 +7,7 @@ var router = require('./routes/router');
 var app = express();
 
 var server = http.createServer(app);
-var port = 3000;
+var port = 3000; //for localhost testing
 
 app.engine( 'handlebars', exhbs( { defaultLayout: 'master' } ) );
 app.set( 'view engine', 'handlebars' );
